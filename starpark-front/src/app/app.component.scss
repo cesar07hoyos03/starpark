@@ -1,6 +1,13 @@
+.banner {
+    background: url("../assets/images/landing.png") no-repeat center;
+    min-height: 200px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-size: 100%;
+  }
 
 .login-box{
-
     margin: auto;
     margin-top: 20px;
     min-width: 300px;
@@ -8,6 +15,30 @@
     width: 90%;
     padding-top:15px;
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media (min-width: 425px) {
+    .banner {
+        min-height: 70px;
+      }
+}
+
+@media (min-width: 768px) {
+    .banner {
+        min-height: 100px;
+      }
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        min-height: 200px;
+      }
+}
+
+@media (min-width: 1440px) {
+    .banner {
+        min-height: 300px;
+      }
 }
