@@ -24,5 +24,17 @@
         </div>
       </form>
     </div>
+
+   
+  </div>
+  <div class="row mt-15 pt-15">
+    
+      <div *ngFor="let customer of customers">
+          <div class="col">
+              <div class="card" style="width: 100%;">
+                  <div class="card-body"> {{customer?.firstName}}</div>
+              </div>
+            </div>
+      </div>
   </div>
 </div>

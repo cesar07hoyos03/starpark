@@ -4,6 +4,8 @@ public class ResourceEndpoint {
 
 	public static final String HEALTH_RESOURCE = "health";
 	
+	public static final String CUSTOMER_RESOURCE = "customer";
+	
 	/**
 	 * Private constructor for constant class.
 	 */
